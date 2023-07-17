@@ -19,3 +19,4 @@ var result  = mediator.Send(request);
 ```
 
 Mediator na podstawie typu żądania odszukuje stosowny handler i przekazuje mu żądanie. Handler zwraca odpowiedź, która jest następnie zwracana przez mediator.
+
