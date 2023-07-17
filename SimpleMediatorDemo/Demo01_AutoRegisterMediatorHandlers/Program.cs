@@ -1,8 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using SimpleMediatorDemo;
-using SimpleMediatorDemo.Mediator;
+﻿using Demo01_AutoRegisterMediatorHandlers;
+using Demo01_AutoRegisterMediatorHandlers.Mediator;
+using Microsoft.Extensions.DependencyInjection;
 
-Console.WriteLine("Hello - proste demo idei działania mediatora");
+Console.WriteLine("Hello - autorejestracja handlerów mediatora");
 
 var services = Prepare();
 var mediator = services.GetRequiredService<ISimpleMediator>();
@@ -17,6 +17,7 @@ static IServiceProvider Prepare()
 {
     IServiceCollection serviceCollection = new ServiceCollection();
     serviceCollection.AddSingleton<ISimpleMediator>(a => new SimpleMediator(a));
-    serviceCollection.AddTransient<ISimpleRequestHandler<RectangleAreaRequest, AreaResponse>, RectangleAreaHandler>();
+    new MediatorRegistry(serviceCollection)
+        .ScanAndRegisterHandlers(typeof(Program).Assembly);
     return serviceCollection.BuildServiceProvider();
 }

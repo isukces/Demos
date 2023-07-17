@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMediatorDemo", "SimpleMediatorDemo\SimpleMediatorDemo.csproj", "{C05CB396-FF92-42EB-9A29-776F9341F3CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01_AutoRegisterMediatorHandlers", "Demo01_AutoRegisterMediatorHandlers\Demo01_AutoRegisterMediatorHandlers.csproj", "{C1FD7EA3-8071-4564-989C-D62B1A207D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C05CB396-FF92-42EB-9A29-776F9341F3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05CB396-FF92-42EB-9A29-776F9341F3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05CB396-FF92-42EB-9A29-776F9341F3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FD7EA3-8071-4564-989C-D62B1A207D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FD7EA3-8071-4564-989C-D62B1A207D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FD7EA3-8071-4564-989C-D62B1A207D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FD7EA3-8071-4564-989C-D62B1A207D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
