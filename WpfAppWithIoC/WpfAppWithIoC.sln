@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWithIoC", "WpfAppWithIoC\WpfAppWithIoC.csproj", "{202904D4-8AF3-4A99-A966-47EF1D28EFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeVisualLib", "SomeVisualLib\SomeVisualLib.csproj", "{FFF9B475-31DC-4FA3-8270-EA296D28C148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{29514311-B33B-4E4A-93C0-233881C7A2D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{202904D4-8AF3-4A99-A966-47EF1D28EFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202904D4-8AF3-4A99-A966-47EF1D28EFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202904D4-8AF3-4A99-A966-47EF1D28EFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202904D4-8AF3-4A99-A966-47EF1D28EFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF9B475-31DC-4FA3-8270-EA296D28C148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF9B475-31DC-4FA3-8270-EA296D28C148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF9B475-31DC-4FA3-8270-EA296D28C148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF9B475-31DC-4FA3-8270-EA296D28C148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29514311-B33B-4E4A-93C0-233881C7A2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29514311-B33B-4E4A-93C0-233881C7A2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29514311-B33B-4E4A-93C0-233881C7A2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29514311-B33B-4E4A-93C0-233881C7A2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

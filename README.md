@@ -4,6 +4,7 @@ Zawiera prostą implementację wzorca mediatora. Dla przejrzystości nie użyto 
 __Projekty demo__
 * [Proste użycie mediatora](SimpleMediatorDemo/SimpleMediatorDemo/README.md)
 * [Autorejestracja handlerów](SimpleMediatorDemo/Demo01_AutoRegisterMediatorHandlers/README.md)
+* [Wywołanie okna jako usługi](WpfAppWithIoC/Readme.md)
 
 
 # Obliczenia za pomocą kaskadowych kalkulatorów
